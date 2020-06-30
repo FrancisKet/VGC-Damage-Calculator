@@ -3242,6 +3242,19 @@ var MOVES_SS = $.extend(true, {}, MOVES_SM, {
         type: 'Grass',
         category: 'Physical',
     },
+    'Surging Strikes': {
+        bp: 25,
+        type: 'Water',
+        category: 'Physical',
+        isMultiHit: true,
+		alwaysCrit: true
+    },
+	'Wicked Blow': {
+        bp: 80,
+        type: 'Dark',
+        category: 'Physical',
+        alwaysCrit: true
+    },
     'Max Strike': {
         type: 'Normal'
     },
