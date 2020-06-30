@@ -3237,6 +3237,11 @@ var MOVES_SS = $.extend(true, {}, MOVES_SM, {
         type: 'Steel',
         category: 'Special',
     },
+    'Grassy Glide': {
+        bp: 70,
+        type: 'Grass',
+        category: 'Physical',
+    },
     'Max Strike': {
         type: 'Normal'
     },
