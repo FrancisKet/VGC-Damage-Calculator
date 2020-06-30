@@ -13851,6 +13851,34 @@ var POKEDEX_SS = $.extend(true, {}, POKEDEX_SM, {
     },
     "w": 950,
   },  
+  "Urshifu-Single": {
+    "t1": "Fighting",
+    "t2": "Dark",
+    "bs": {
+      "hp": 100,
+      "at": 130,
+      "df": 100,
+      "sa": 63,
+      "sd": 60,
+      "sp": 97
+    },
+    "w": 105,
+    "ab": "Pressure"
+  },
+  "Urshifu-Rapid": {
+    "t1": "Fighting",
+    "t2": "Water",
+    "bs": {
+      "hp": 100,
+      "at": 130,
+      "df": 100,
+      "sa": 63,
+      "sd": 60,
+      "sp": 97
+    },
+    "w": 105,
+    "ab": "Pressure"
+  },
   "Aegislash": { "bs": { "df": 140, "sd": 140 } },
   "Aegislash-Blade": { "bs": { "at": 140, "sa": 140 } },
   "Aegislash-Shield": { "bs": { "df": 140, "sd": 140 } },
