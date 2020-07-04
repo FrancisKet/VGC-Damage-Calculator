@@ -3255,6 +3255,17 @@ var MOVES_SS = $.extend(true, {}, MOVES_SM, {
         category: 'Physical',
         alwaysCrit: true
     },
+	'Expanding Force': {
+        bp: 80,
+        type: 'Psychic',
+        category: 'Special',
+    },
+	'Expanding Force (Terrain)': {
+        bp: 120,
+        type: 'Psychic',
+        category: 'Special',
+	isSpread: true,
+    },
     'Max Strike': {
         type: 'Normal'
     },
