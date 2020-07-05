@@ -3266,6 +3266,12 @@ var MOVES_SS = $.extend(true, {}, MOVES_SM, {
         category: 'Special',
 	isSpread: true,
     },
+	'Scorching Sands': {
+        bp: 70,
+        type: 'Ground',
+        category: 'Special',
+        hasSecondaryEffect: true,
+    },
     'Max Strike': {
         type: 'Normal'
     },
